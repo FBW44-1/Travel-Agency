@@ -1,6 +1,11 @@
 /*Global*/
 body{
     background-color: #deeaf0;
+    font-family: 'Indie Flower', cursive;
+}
+
+p{
+    font-size: 20px;
 }
 
 .page{
@@ -9,8 +14,17 @@ body{
 
 h2{
     text-align: center;
+}
+
+h1{
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
     text-transform: uppercase;
     text-shadow: 3px 3px 4px;
+    letter-spacing: 4px;
+}
+i{
+    color:#023047;
 }
 
 /*Navigation styling*/
@@ -20,13 +34,14 @@ nav{
     border-bottom: 2px solid black;
     box-shadow:3px 4px 4px #023047;
     background-color: #8ecae6;
-    padding:5px;
+    margin:0;
+    padding:2px;
 }
 
 nav li{
     display:inline;
     margin:0;
-    padding:10px;
+    padding:5px;
 }
 
 nav a{
@@ -36,18 +51,26 @@ nav a{
 }
 
 nav li:hover{
-    background-color: #ffb703;
+    background-color: #023047;
+}
+
+nav a:hover{
+    color:burlywood;
 }
 
 nav i{
     padding:5px;
 }
 
+nav i:hover{
+    color:burlywood;
+}
+
 /*Styling Home Page*/
 #ganga{
     margin-left: 5%;
     width:40%;
-    padding: 15px;
+    padding: 30px;
     border: 2px solid;
     box-shadow:5px 5px 4px #023047;
 }
@@ -78,4 +101,43 @@ nav i{
     width:300px;
     height:250px;
     
+}
+
+/*Booking Page*/
+.hotel h2{
+    text-align: center;
+}
+
+/*.hotel{
+    margin-left: 10%;
+    margin-right: 60%;
+}*/
+
+.booking form{
+    background-image: url(img/paper.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-left: 40px;
+    /*border:3px solid black;*/
+    line-height:25px;
+    width:300px;
+    box-shadow: 3px 3px 4px;
+}
+
+.booking{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Contact page*/
+.contact-us{
+    background-image: url(img/paper.jpg);
+    background-repeat:no-repeat;
+    margin-left:30%;
+    margin-right:40%;
+    padding-left: 50px;
+    line-height:25px;
 }
