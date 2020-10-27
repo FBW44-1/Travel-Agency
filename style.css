@@ -1,11 +1,13 @@
 /*Global*/
 body{
     background-color: #deeaf0;
-    font-family: 'Indie Flower', cursive;
+    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Grandstander', cursive;
 }
 
 p{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .page{
@@ -73,6 +75,12 @@ nav i:hover{
     padding: 30px;
     border: 2px solid;
     box-shadow:5px 5px 4px #023047;
+    filter:grayscale(60%);
+}
+
+#ganga:hover{
+    transform: scale(1.1);
+    filter:none;
 }
 
 .container{
@@ -89,7 +97,6 @@ nav i:hover{
     display:flex;
     justify-content: space-between;
     margin-left:2%;
-    max-resolution: right 2%;
 }
 
 .container2 div{
@@ -106,6 +113,10 @@ nav i:hover{
 /*Booking Page*/
 .hotel h2{
     text-align: center;
+    border-bottom:2px solid;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    box-shadow: 3px 3px 4px;
 }
 
 /*.hotel{
@@ -140,4 +151,37 @@ nav i:hover{
     margin-right:40%;
     padding-left: 50px;
     line-height:25px;
+}
+
+.media{
+    text-align: center;
+    font-size: 50px;
+}
+
+.fab:hover{
+    transform:scale(1.2);
+    filter:none;
+}
+
+.fab{
+    padding:15px;
+}
+
+.fa-facebook-square{
+    color:#0466c8;
+}
+
+.fa-twitter-square{
+    color:#4cc9f0;
+}
+
+.fa-pinterest-square{
+    color:#e71d36;
+}
+
+/*Footer Styling*/
+footer{
+    border-top:2px solid;
+    background-color: #8ecae6;
+    text-align: center;
 }
