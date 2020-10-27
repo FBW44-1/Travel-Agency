@@ -1,0 +1,178 @@
+/*Global*/
+body{
+    background-color: #deeaf0;
+    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Grandstander', cursive;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px;
+    letter-spacing: 4px;
+}
+
+i{
+    color:#023047;
+}
+
+/*Navigation styling*/
+nav{
+    text-decoration: none;
+    color:black;
+    border-bottom: 2px solid black;
+    box-shadow:3px 4px 4px #023047;
+    background-color: #8ecae6;
+    margin:0;
+    padding:2px;
+}
+
+nav li{
+    display:inline;
+    margin:0;
+    padding:5px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+
+nav li:hover{
+    background-color: #023047;
+}
+
+nav a:hover{
+    color:burlywood;
+}
+
+nav i{
+    padding:5px;
+}
+
+nav i:hover{
+    color:burlywood;
+}
+
+/*Styling Home Page*/
+#ganga{
+    margin-left: 5%;
+    width:35%;
+    padding: 30px;
+    border: 2px solid;
+    box-shadow:5px 5px 4px #023047;
+    filter:grayscale(60%);
+}
+
+#ganga:hover{
+    transform: scale(1.1);
+    filter:none;
+}
+
+.container{
+    display:inline-flex;
+    justify-content:space-between;
+}
+
+.container section{
+    padding:5%;
+}
+
+/*Styling Tours page*/
+.container2{
+    display:flex;
+    justify-content: space-between;
+    margin-left:2%;
+}
+
+.container2 div{
+    padding:10px;
+    border: 2px solid;
+    box-shadow:5px 5px 4px #023047;
+}
+.container2 img{
+    width:300px;
+    height:250px;
+}
+
+/*Booking Page*/
+.hotel h2{
+    text-align: center;
+    border-bottom:2px solid;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    box-shadow: 3px 3px 4px;
+}
+
+.booking form{
+    background-image: url(img/paper.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-left: 40px;
+    line-height:25px;
+    width:300px;
+    box-shadow: 3px 3px 4px;
+}
+
+.booking{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Contact page*/
+.contact-us{
+    background-image: url(img/paper.jpg);
+    background-repeat:no-repeat;
+    margin-left:30%;
+    margin-right:40%;
+    padding-left: 50px;
+    line-height:25px;
+    box-shadow: 3px 3px 4px;
+}
+
+.media{
+    text-align: center;
+    font-size: 50px;
+}
+
+.fab:hover{
+    transform:scale(1.2);
+    filter:none;
+}
+
+.fab{
+    padding:15px;
+}
+
+.fa-facebook-square{
+    color:#0466c8;
+}
+
+.fa-twitter-square{
+    color:#4cc9f0;
+}
+
+.fa-pinterest-square{
+    color:#e71d36;
+}
+
+/*Footer Styling*/
+footer{
+    border-top:2px solid;
+    background-color: #8ecae6;
+    text-align: center;
+}
