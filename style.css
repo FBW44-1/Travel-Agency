@@ -1,0 +1,261 @@
+/* My fonts:
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+/* BODY STYLES */
+body {
+    margin: 0;
+    padding: 30px 100px;
+    background-image: url(img/bground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER STYLES */
+h1 {
+    font-size: 56px;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0072CF;
+}
+
+.fas {
+    color: orange;
+    font-size: 32px;
+    text-shadow: 4px 4px 2px gray;
+}
+
+.fab {
+    font-size: 36px;
+    color: orange;
+    letter-spacing: 12px;
+}
+.fab:hover {
+    color: #0072ce;
+}
+
+div.quote {
+    text-align: right;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-right: 25%;
+    color: orange;
+    text-shadow: 2px 2px 2px gray;
+}
+.partorange {
+    color:orange;
+    text-shadow: 3px 3px 2px gray;
+}
+
+/* LINK STYLES */
+a:link {
+    text-decoration: none;
+    color: #0072CF;
+}
+a:visited {
+    color: #CF7E00;
+}
+a:hover {
+    background-color: #0072ce;
+    color: white;
+}
+a:active {
+    color: #CF7E00;
+}
+
+/* TOP NAV STYLES */
+.topnav {
+    margin: -30px -100px 20px -100px;
+    border: 2px solid #0072ce;
+    background-color: #0072ce;
+    box-shadow: 8px 9px 6px orange;
+}
+.topnav ul {
+    margin: 0 auto;
+    list-style-type: none;
+    width: 500px;
+}
+.topnav li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.topnav a {
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+}
+.topnav a:link,
+.topnav a:visited {
+    color: white;
+}
+.topnav a:hover,
+.topnav .currentpage a {
+    background-color: white;
+    color: #0072ce;
+    text-decoration: none;
+}
+.topnav .currentpage a {
+    pointer-events: none;
+    font-weight: bold;
+}
+.topnav a:active {
+    box-shadow: inset 0 0 7px darkblue;
+}
+
+/* TOP IMAGE STYLES */
+#topimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+/* TABLE STYLES */
+table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+td {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+table a:hover {
+    background-color: initial;
+}
+table img {
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+}
+td img:hover {
+    border: 2px solid orange;
+    padding: 3px;
+}
+
+/* FORM STYLES */
+form {
+    font-size: 14px;
+}
+form > div {
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.label-width {
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+}
+input[type="email"],
+input[type="text"] {
+    width: 200px;
+    text-align: left;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    border-radius: 12px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 2px gray;
+    border: orange;
+}
+input[type="submit"]:hover {
+    background-color: #0072ce;
+    border: #0072ce;
+    color: white;
+}
+
+
+/* IMAGES LIST STYLES */
+.list-items li {
+      list-style-type: none;
+}
+.list-items a:hover {
+    background-color: initial;
+}
+.list-items img {
+    height: 70px;
+}
+li img:hover {
+    border: 2px solid orange;
+    padding: 3px;
+}
+
+.contact {
+    margin-left: 50px;
+    width: max-content;
+}
+.contact td {
+    padding: 0px 20px 5px 0px;
+    text-align: left;
+}
+
+.backtotop {
+    display: inline-block;
+    padding: 5px 15px 0 0;
+    margin-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.topright {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    color: red;
+}
+
+p {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 4px 4px 2px gray;
+}
+
+.sale {
+    border: 3px solid red;
+}
+
+.fa-percent {
+    font-size: 56px; 
+    color: red;
+    display: block; 
+    float: left;
+    padding-right: 15px;
+}
+.fa-percentage {
+    font-size: 26px; 
+    color: red;
+    padding: 0 15px;
+    text-shadow: none;
+}
+.city {
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+
+}
+p img {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 15px;
+}
