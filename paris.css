@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+}
+.fa-plane-departure{
+    color: lawngreen;
+}
+
+.fas{
+    color: lawngreen;
+}
+
+.tours{
+    line-height: 1.6; /*Recommended line height*/
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+
+}
+img{
+    width: 300px;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    background-color: lawngreen;
+}

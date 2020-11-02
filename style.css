@@ -1,0 +1,87 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header{
+    /*background-color: #473AFE;
+    text-align: center;
+    margin: 0px;
+    margin left: 0px;<span class="tooltiptext">Tooltip text</span>
+    margin right: 0px;
+    height: 150px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /*height: 90%;
+    display: table;
+    width: 100%;*/
+}
+.panorama{
+    width: 100%;
+    height: 20%;
+}
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+}
+.fa-plane-departure{
+    color: lawngreen;
+}
+
+.fas{
+    color: lawngreen;
+}
+
+ul{
+    list-style-type: none;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted royalblue;
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext:after{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+.packages{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+button{
+    background-color: lawngreen;
+    color: black;
+}
