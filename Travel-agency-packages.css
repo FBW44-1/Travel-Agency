@@ -1,0 +1,135 @@
+
+
+#home h1 {
+
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  transform: translate(-23%, -800%);
+  top: 60%;
+  left: 55%;
+}
+
+
+/*
+#home h1 {position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: px bold;
+  font-family: 'Open Sans', sans-serif;
+}
+*/
+
+/*
+#home img {padding-right: 15px;
+
+  margin-left: 10px;
+margin-right: 10px;}
+
+*/
+
+
+#Travel-packages > h2::after  {
+  font-family: "FontAwesome";
+  content: "\f3c5";
+  color: #1E90FF;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#Travel-packages h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px bold;
+  padding: 50px;
+  margin-top: -110px;
+  margin-bottom: -17px;
+}
+
+
+
+img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+
+#Travel-packages h2 {position: relative;
+left: 1px}
+
+
+*
+.column {
+
+    flex: 25%;
+    padding: 5px;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+
+
+
+
+a {text-decoration: none;}
+
+
+.box-text {
+          position: relative;
+          font-size: 30px;
+          font-family: 'Open Sans', sans-serif;
+          bottom: 50px;
+          left: 110px;
+          color: white;
+          
+          }
+  
+
+ .packages p {font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+ img {position: relative;
+  width: 100%}
+
+.fas {color: #1E90FF;}
+  
+ .column {
+  position: relative;
+  width: 100%;
+}
+
+#element {
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+
+#element a {
+    display: none;
+    padding-left: 30px;
+}
+
+#element:hover a {
+    display: block;
+}
+/*
+ 
+  
+  right: 460px;
+  
+ 
+  color: white;
+ 
+ 
+ 
+ */
